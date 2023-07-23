@@ -1,19 +1,23 @@
 <html>
+    <body style="background-color:#7d9ffd;">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <script src="./static/mywebscript.js"></script>
-    <div class="card">
-    <div class="card-body">
-        <div class="mb-3">
-            <label class="form-label">Text to be translated</label>
+    <title> French & English translation app</title>
+    <div class="card" style="background-color:#7d9ffd;">
+    <div class="card-body" style="background-color:#7d9ffd;">
+        <div class="mb-3" style="background-color:#7d9ffd;">
+            <label class="form-label"><b><u>French & English translation app</b></u></label><BR>
+                <label class="form-label">An app for the course: <i>Python Project for AI & Application Development</i> to fulfill Coursera's <i>IBM Full Stack Software Developer Professional Certificate</i>.</label>
             <input type="textarea" class="form-control" id="textToTranslate">
         </div>
-    
-        <div style="padding: 25px 25px 25px 25px;">
-            <button onclick="translateToFrench()" class="btn btn-secondary">Translate to French</button>        
-            <button onclick="translateToEnglish()" class="btn btn-secondary">Translate to English</button>        
+
+        <div style="padding: 25px 25px 25px 25px;" style="background-color:#7d9ffd;">
+            <button onclick="translateToFrench()" class="btn btn-secondary" style="background-color:#2964d8;">Translate to French</button>
+            <button onclick="translateToEnglish()" class="btn btn-secondary" style="background-color:#2964d8;">Translate to English</button>
         </div>
-    
-        <div id="translated_text" style="padding: 25px 25px 25px 25px;"></div>
+
+        <div id="translated_text" style="padding: 0px 0px 0px 0px;"></div>
         </div>
   </div>
+    </body>
 </html>
